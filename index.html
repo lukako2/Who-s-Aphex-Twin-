@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Aphex Twin?</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="aphex">APHEX TWIN</div>
+        <video width="90%" loop autoplay><source src="videos/1142754135.mp4">Your browser does not support the video tag.
+        </video>
+        <div class="audioPlayer">
+            <audio style="margin: auto;" autoplay loop controls>Your browser does not support the audio tag.<source src="audio/Aphex Twin  - Flim.mp3"></audio>
+        </div>
+        
+        <div class="bio">
+            <h1 style="color:white ; margin:0 0 30px 0 ;">Why Aphex Twin is electronic music's most beloved artist</h1>
+
+            <span style="color: white;">In the world of electronic music, there's no one as regarded and celebrated as much as Richard D. James, better known as Aphex Twin. Throughout his long and inspiring career, he transformed techno music far beyond its original capabilities, and his iconography and image is one of the most unique and influential in music today. <br></br>
+                His approach to song structure and album covers were widely ahead of his time, and his musical abilities and song manipulation helped inspire a new generation of electronic musicians with his desire for experimentation. <br></br>
+                Aphex Twin grew up in Cornwall, and spent his teenage years DJing at parties throughout neighboring cities. Through these parties he met many different musicians and people, and these experiences formed a tight-knit community between those who attended these parties. <br></br>
+                His first music release, the 1991 extended play “Analogue Bubblebath,” was widely influential for the development of electronic music. It sold out in less than a week, and helped push Aphex Twin’s influence to a mainstream and techno-driven audience. <br></br>
+                Aphex Twin's first full-length album was 1992’s “Selected Ambient Works 85-92,” which composed of material dating several years back into his career. This album became critically-acclaimed, with fan favorites like “Xtal” and “Tha” being two of his most popular songs. <br></br>
+                The drum patterns and synth lines constantly mutate throughout the album, and he never lingers on a singular musical idea for too long. His use of synthesizers and hardware greatly expanded with the release of this project, which is evident in the production throughout the tracks. <br></br>     
+                </span>
+                <video width="80%" loop autoplay>
+                    <source src="videos/1142754430.mp4">
+                </video>
+
+                    <div class="move"></div>
+
+
+                  <script>
+                    $(window).on("load resize scroll", function() {
+                    $(".container").each(function() {
+                      var scrollTop = $(window).scrollTop();
+                      var elementTop = $(this).offset().top;
+                      var leftPos = scrollTop - elementTop;
+                      $(this)
+                        .find(".move")
+                        .css({ left: leftPos });
+                      });
+                    });
+                  </script>
+
+            <p style="color: white; margin:30px 0 30px 0 ;" >
+                The release of “Selected Ambient Works 85-92” was a watershed moment for electronic music, and many electronic artists view this album as a major influence on their career and approach to song structure. <br></br>
+            But 1999’s “Windowlicker” is one of Aphex Twin’s most influential song releases to date. The song features a drum and bass intro and distorted vocals that flow freely throughout the track. A rhythm and blues inspired track, "Windowlicker" has an ever-fluctuating groove and melody throughout its progression. <br></br>
+            Additionally, the track's futuristic feel and sonic experimentation greatly influenced electronic dubstep, and its 6-minute run time was inspiring for producers and artists to create longer and more glitch-heavy songs. <br></br>
+            While most electronic and techno music follows a similar structure and format, Aphex Twin is unique for his complete subversion of structures and sounds. He completely abandoned traditional aspects of techno like short four-on-the-floor beats. <br></br>
+            Furthermore, his music features constant shifts between rhythmic patterns, switching musical ideas without a second thought. His desire for change and experimentation is a prominent factor of his musical identity, and this is a distinct feature throughout his work. <br></br>
+            Another one of Aphex Twin's distinguishing factors is his approach to album covers. Many of his works feature distorted pictures of his face, making his album covers both incredibly memorable and jarring to look at. <br></br>
+            For instance, the cover art for his 1997 album “Come To Daddy” features his face superimposed onto a black and white photo of multiple children, and his devilish grin and distorted features adds layers to the uneasiness created by the image. <br></br>
+            Another one is his 1996 “Donkey Rhubarb” cover, which tiles an image of his smile 25 times, creating a symmetrically pleasing and visually stunning cover. Aphex Twin's specific decisions beyond his cover art adds a greater sense of uniqueness to his career, and this feature of his artistry adds to his mystique and image. <br></br>
+            Aphex Twin is an artist who has always done things on his own terms, and in doing so, has inspired countless musicians and listeners alike to form their own identities. His complete confidence and relentless work ethic is an inspiration for all creatives, and his influence and iconography cements his legacy as one of electronic music’s most daring and unique figureheads. <br></br>
+            
+            </p>
+        </div>
+
+        <div class="end">
+            <video class="img-anim" autoplay loop><source src="videos/loop_aphex_end.mp4"></video>
+            <img class="img-bg" src="images/967df8e65e1783648facfe876e2dbc7d.jpg">
+        </div>
+
+        <iframe style="border-radius:12px; margin: 50px;" src="https://open.spotify.com/embed/artist/6kBDZFXuLrZgHnvmPu9NsG?utm_source=generator" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <div class="bottom">
+            <video class="bottom-loop" autoplay loop><source src="videos/1142754265.mp4"></video>
+        </div>
+
+    </div>
+    
+</body>
+</html>
