@@ -14,6 +14,25 @@ body{
     overflow-x: hidden;
 }
 
+.title{
+    position: relative;
+}
+
+.title h1{
+    font-family: techno;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
 .container{
     position: relative;
     width: 100%;
@@ -23,22 +42,11 @@ body{
 }
 
 
-.aphex{
-    font-family: techno;
-    font-size: 60px;
-    width: fit-content;
-    position: absolute; 
-    top: 350px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
-
-video{
-    margin-left: auto;
-    margin-right: auto;
-    display: block
+.title video{
+    height: 100vh;
+    display: block;
+    width: 100vw;
+    object-fit: cover;
 }
 
 .bio{
@@ -100,4 +108,9 @@ video{
     height: fit-content;
     margin: 20px auto;
     text-align: center;
+}
+
+.iframe{
+    display: block;
+    margin: 15px auto;
 }
