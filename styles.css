@@ -148,4 +148,13 @@ body{
         width: 90%;
     }
 
+    .end .img-bg{
+        width: 100%;
+    }
+
+    .end .img-anim{
+        top: 8%;
+        width: 50%;
+    }
+
 } 
